@@ -323,7 +323,7 @@ nav {
   and (max-device-width: 480px) 
   and (orientation: portrait){
     html{
-      font-size: 65%;
+      font-size: 75%;
     }
 
     body {
