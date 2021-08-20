@@ -331,13 +331,17 @@ nav {
     }
 
     nav {
-        width: 77%;
+        width: 100%;
         padding-top: 1.5rem;
     }
 
     .hero-intro {
         margin-top: 2rem;
         padding: 5rem 0rem 0rem 0rem;
+    }
+      
+    .hero-intro span {
+        font-size:2.5rem;
     }
 
     .coffee {
