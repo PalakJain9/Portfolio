@@ -272,7 +272,7 @@ nav {
     }
 
     .hero-intro {
-        padding: 5rem 2rem 0rem 2rem;
+        padding: 5rem 5rem 0rem 5rem;
     }
 
     .coffee {
@@ -336,7 +336,8 @@ nav {
     }
 
     .hero-intro {
-        padding: 5rem 2rem 0rem 2rem;
+        margin-top: 7rem;
+        padding: 5rem 0rem 0rem 0rem;
     }
 
     .coffee {
