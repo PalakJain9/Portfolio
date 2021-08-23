@@ -83,8 +83,8 @@ nav {
 
 .coffee img {
     margin-left: -3.7rem;
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 14.5rem;
+    height: 14.5rem;
     animation: rotation 12s infinite linear;
 }
 
@@ -131,8 +131,8 @@ nav {
 
 .about-info {
     font-size: 1.5rem;
-    color: rgb(58, 58, 58);
-    line-height: 2.5rem;
+    color: rgb(63, 63, 63);
+    line-height: 2.8rem;
     text-align: center;
 }
 
@@ -643,6 +643,7 @@ nav {
     nav {
         width: 93%;
         padding-top: 1rem;
+        font-size: 1rem;
     }
 
     .hero-intro {
@@ -651,11 +652,19 @@ nav {
     }
 
     .coffee {
-        transform: translateX(-5rem);
+        transform: translateX(-6rem);
     }
 
     .coffee img {
         margin-left: 0rem;
+    }
+    
+    .social i {
+        font-size: 1.4rem;
+    }
+    
+    .social i:hover {
+        font-size: 1.7rem;
     }
 
     .intro {
@@ -666,6 +675,7 @@ nav {
     .about-info {
         text-align: left;
         padding: 0rem 0.5rem;
+        font-weight: normal;
     }
 
     .my-skills {
@@ -716,6 +726,20 @@ nav {
         flex-direction: column;
         gap: 4rem;
         text-align: center;
+    }
+
+    .contact-body {
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 2.8rem;
+    }
+    
+    .follow-social i {
+        font-size: 1.3rem;
+    }
+    
+    .follow-social i:hover {
+        font-size: 1.5rem;
     }
 
     .footer {
