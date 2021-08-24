@@ -13,6 +13,7 @@ body {
     padding: 1rem 11rem;
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
+    background-color: white;
 }
 
 nav {
