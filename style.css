@@ -684,6 +684,10 @@ nav {
         margin-top: 13rem;
         padding: 0rem 9rem;
     }
+      
+    .my-skills p {
+        font-weight: 700;
+    }
 
     .skill img {
         width: 4rem;
@@ -695,6 +699,10 @@ nav {
         margin-top: 13rem;
         padding: 0rem 0.5rem;
         gap: 4.5rem;
+    }
+      
+    .projects p {
+        font-weight: normal;
     }
 
     .p1 {
