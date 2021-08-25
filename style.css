@@ -634,7 +634,7 @@ nav {
   and (max-device-width: 480px) 
   and (orientation: portrait){
     html{
-      font-size: 67%;
+      font-size: 68%;
     }
 
     body {
@@ -644,6 +644,7 @@ nav {
     nav {
         width: 93%;
         padding-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .hero-intro {
@@ -660,11 +661,12 @@ nav {
     }
     
     .social i {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
+        padding-left: 1.5rem;
     }
     
     .social i:hover {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .intro {
@@ -676,10 +678,11 @@ nav {
         text-align: left;
         padding: 0rem 0.5rem;
         font-weight: normal;
+        line-height: 3rem;
     }
 
     .my-skills {
-        margin-top: 9rem;
+        margin-top: 13rem;
         padding: 0rem 10rem;
     }
 
@@ -690,7 +693,7 @@ nav {
     }
     
     .projects {
-        margin-top: 9rem;
+        margin-top: 13rem;
         padding: 0rem 0.5rem;
         gap: 4.5rem;
     }
@@ -730,16 +733,15 @@ nav {
 
     .contact-body {
         font-weight: normal;
-        font-size: 1rem;
         line-height: 2.8rem;
     }
     
     .follow-social i {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
     
     .follow-social i:hover {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .footer {
