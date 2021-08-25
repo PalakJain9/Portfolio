@@ -716,6 +716,7 @@ nav {
 
     .p-info {
         width: 100%;
+        font-weight: normal;
     }
     
     .p-info h4 {
@@ -732,7 +733,7 @@ nav {
 
     .contact-body {
         font-weight: normal;
-        line-height: 3.2rem;
+        line-height: 3.5rem;
     }
     
     .follow-social i {
