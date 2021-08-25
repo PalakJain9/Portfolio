@@ -670,7 +670,7 @@ nav {
     }
 
     .intro {
-        margin-top: 11rem;
+        margin-top: 13rem;
         padding: 0rem 0rem;
     }
 
@@ -682,12 +682,12 @@ nav {
 
     .my-skills {
         margin-top: 13rem;
-        padding: 0rem 10rem;
+        padding: 0rem 9rem;
     }
 
     .skill img {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 1rem;
     }
     
