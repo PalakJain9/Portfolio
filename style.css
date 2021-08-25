@@ -678,7 +678,7 @@ nav {
         text-align: left;
         padding: 0rem 0.5rem;
         font-weight: normal;
-        line-height: 3rem;
+        line-height: 3.3rem;
     }
 
     .my-skills {
@@ -687,8 +687,8 @@ nav {
     }
 
     .skill img {
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 1rem;
     }
     
@@ -733,7 +733,7 @@ nav {
 
     .contact-body {
         font-weight: normal;
-        line-height: 2.8rem;
+        line-height: 3.2rem;
     }
     
     .follow-social i {
