@@ -634,7 +634,7 @@ nav {
   and (max-device-width: 480px) 
   and (orientation: portrait){
     html{
-      font-size: 68%;
+      font-size: 65%;
     }
 
     body {
@@ -644,7 +644,11 @@ nav {
     nav {
         width: 93%;
         padding-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+      
+    .nav-content a:hover {
+    font-size: 1.5rem;
     }
 
     .hero-intro {
@@ -672,6 +676,7 @@ nav {
     .intro {
         margin-top: 13rem;
         padding: 0rem 0rem;
+        font-weight: normal;
     }
 
     .about-info {
@@ -686,7 +691,7 @@ nav {
     }
       
     .my-skills p {
-        font-weight: 700;
+        font-weight: normal;
     }
 
     .skill img {
