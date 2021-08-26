@@ -58,24 +58,6 @@ nav button {
     padding: 0rem 5rem;
 }
 
-/*.hero-intro  {
-    z-index: -1;
-    position: absolute;
-    
-    height: 20rem;
-    width: 19rem;
-} 
-
-.my-img {
-    background-color: palegreen;
-    position: absolute;
-    width: 15rem;
-    height: 18rem;
-    z-index: -1;
-    top: -2rem;
-    left: 58rem;
-}*/
-
 .hero-bottom {
     display: flex;
     justify-content: space-between;
@@ -437,24 +419,22 @@ nav button {
         font-size: 1.3rem;
     }
 
-    nav button {
-        display: inline-block;
-        border: 0.05rem solid white;
-        font-size: 2rem;
-        background-color: white;
-    }
-
     .dropdown {
         position: relative;
         display: inline-block;
+    }
+
+    nav button {
+        display: inline-block;
+        border: 0.05rem solid white;
+        background-color: rgba(255, 255, 255, 0);
     }
 
     .nav-content {
         display: none;
         position: absolute;
         background-color: white;
-        z-index: 1;
-        min-width: 7rem;
+        z-index: 2;
         right: 0;
     }
 
@@ -502,6 +482,7 @@ nav button {
         text-align: left;
         padding: 0rem 0.5rem;
         font-weight: normal;
+        line-height: 2.3rem;
     }
 
     .my-skills {
@@ -549,6 +530,7 @@ nav button {
     .p-info {
         width: 100%;
         font-weight: normal;
+        font-size: 1.2rem;
     }
     
     .p-info h4 {
@@ -578,6 +560,7 @@ nav button {
 
     .footer {
         margin-top: 9rem;
+        font-weight: normal;
     }
 
 }
