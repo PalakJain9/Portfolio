@@ -437,7 +437,8 @@ nav button {
         background-color: white;
         z-index: 2;
         right: 0;
-        gap: 2rem;
+        padding: 1rem 1.5rem;
+        font-size:2rem;
     }
 
     .dropdown:hover .nav-content {
