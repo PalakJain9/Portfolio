@@ -28,6 +28,10 @@ nav {
     width: 76.8%;
 }
 
+nav button {
+    display: none;
+}
+
 .nav-content {
     display: flex;
     gap: 2rem;
@@ -305,31 +309,6 @@ nav {
         gap: 4rem;
     }
 
-    /*.p1 {
-        gap: 2rem;
-        padding: 1rem;
-    }
-
-    .p-img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .p-img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 1rem;
-    }
-
-    .p-info {
-        width: 100%;
-    }
-    
-    .p-info h4 {
-        text-align: center;
-        padding-bottom: 0.3rem;
-    }*/
-
     .contact {
         margin-top: 9rem;
         flex-direction: row;
@@ -342,195 +321,6 @@ nav {
     }
 
   }
-
-
-/*@media screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1439px){
-    html{
-        font-size: 95%;
-    }
-
-    body {
-        padding: 1rem 2rem;
-    }
-
-    .about-info {
-        padding: 0rem 0.5rem;
-    }
-
-    .skill img {
-        width: 3rem;
-        height: 3rem;
-        border-radius: 1rem;
-    }
-    
-    .projects {
-        margin-top: 9rem;
-        padding: 0rem 0rem;
-        gap: 4rem;
-    }
-
-    .p1 {
-        flex-direction: row;
-        gap: 3rem;
-        padding: 1rem;
-    }
-
-    .p-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    nav {
-        width: 93%;
-        padding-top: 1rem;
-    }
-
-    .hero-intro {
-        padding: 5rem 5rem 0rem 5rem;
-    }
-
-    .coffee {
-        transform: translateX(-6rem);
-    }
-
-    .coffee img {
-        margin-left: 0rem;
-    }
-
-    .intro {
-        margin-top: 9rem;
-        padding: 0rem 5rem;
-    }
-
-    .my-skills {
-        margin-top: 13rem;
-        padding: 0rem 17rem;
-    }
-    
-    .my-skills p {
-        font-size: 1.8rem;
-        font-weight: 700;
-    }
-    
-    .skill img {
-        width: 6rem;
-        height: 6rem;
-        border-radius: 1rem;
-    }
-    
-    .projects {
-        margin-top: 18rem;
-        display: flex;
-        flex-direction: column;
-        padding: 0rem 5rem;
-        gap: 3rem;
-    }
-    
-    .p1 {
-        border: 1px solid rgb(228, 228, 228);
-        background-color: rgb(228, 228, 228);
-        display: flex;
-        flex-direction: row;
-        gap: 3rem;
-        padding: 1.3rem;
-        border-radius: 1.3rem;
-    }
-    
-    .p-img {
-        width: 35%;
-        height: 14rem;
-        border-radius: 1rem;
-    }
-    
-    .p-img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 1rem;
-    }
-    
-    .p-info {
-        font-weight: bold;
-        width: 60%;
-    }
-    
-    .contact {
-        display: flex;
-        flex-direction: row;
-        gap: 10rem;
-        margin-top: 20rem;
-    }
-    
-    .footer {
-        margin-top: 15rem;
-        border-top: 1px solid gray;
-        padding-top: 2rem;
-        padding-bottom: 5rem;
-        text-align: right;
-        font-weight: 700;
-    }
-
-    /*
-
-    .about-info {
-        padding: 0rem 0.5rem;
-    }
-
-    .my-skills {
-        margin-top: 13rem;
-        padding: 0rem 17rem;
-    }
-
-    .skill img {
-        width: 3rem;
-        height: 3rem;
-        border-radius: 1rem;
-    }
-    
-    .projects {
-        margin-top: 9rem;
-        padding: 0rem 0rem;
-        gap: 4rem;
-    }
-
-    .p1 {
-        flex-direction: row;
-        gap: 3rem;
-        padding: 1rem;
-    }
-
-    .p-img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .p-img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 1rem;
-    }
-
-    .p-info {
-        width: 100%;
-    }
-    
-    .p-info h4 {
-        text-align: center;
-        padding-bottom: 0.3rem;
-    }
-    
-    .contact {
-        margin-top: 11rem;
-        flex-direction: row;
-        gap: 4rem;
-        justify-content: space-evenly;
-    }
-
-    .footer {
-        margin-top: 9rem;
-    }
-}*/
 
 
 /*tablet*/
@@ -646,10 +436,39 @@ nav {
         padding-top: 1rem;
         font-size: 1.3rem;
     }
-      
-    .nav-content a:hover {
-    font-size: 1.5rem;
+
+    nav button {
+        display: inline-block;
+        border: 0.05rem solid white;
+        font-size: 2rem;
+        background-color: white;
     }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        min-width: 7rem;
+        right: 0;
+    }
+
+    .nav-content a {
+        padding: 1rem;
+    }
+
+    .dropdown:hover .nav-content {
+        display: block;
+    }
+      
+    /*.nav-content a:hover {
+    font-size: 1.5rem;
+    }*/
 
     .hero-intro {
         padding: 4rem 1rem 0rem 1rem;
