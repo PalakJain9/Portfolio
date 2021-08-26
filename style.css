@@ -426,7 +426,8 @@ nav button {
 
     nav button {
         display: inline-block;
-        border: 0.05rem solid white;
+        font-size: 3rem;
+        border: none;
         background-color: rgba(255, 255, 255, 0);
     }
 
@@ -436,14 +437,13 @@ nav button {
         background-color: white;
         z-index: 2;
         right: 0;
-    }
-
-    .nav-content a {
-        padding: 1rem;
+        gap: 2rem;
     }
 
     .dropdown:hover .nav-content {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
     }
       
     /*.nav-content a:hover {
@@ -482,7 +482,7 @@ nav button {
         text-align: left;
         padding: 0rem 0.5rem;
         font-weight: normal;
-        line-height: 2.3rem;
+        line-height: 3rem;
     }
 
     .my-skills {
@@ -561,6 +561,10 @@ nav button {
     .footer {
         margin-top: 9rem;
         font-weight: normal;
+    }
+
+    .footer i {
+        padding-right: 0.3rem;
     }
 
 }
