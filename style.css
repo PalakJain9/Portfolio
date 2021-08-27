@@ -85,7 +85,7 @@ nav button {
 }
 
 .social {
-    padding-top: 11.5rem;
+    padding-top: 13rem;
 }
 
 .social a {
@@ -437,19 +437,18 @@ nav button {
         background-color: white;
         z-index: 2;
         right: 0;
-        padding: 1rem 1.5rem;
-        font-size:2rem;
     }
 
     .dropdown:hover .nav-content {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        padding: 2rem;
     }
       
-    /*.nav-content a:hover {
-    font-size: 1.5rem;
-    }*/
+    .nav-content a:hover {
+    font-size: 1.3rem;
+    }
 
     .hero-intro {
         padding: 4rem 1rem 0rem 1rem;
@@ -483,7 +482,7 @@ nav button {
         text-align: left;
         padding: 0rem 0.5rem;
         font-weight: normal;
-        line-height: 3.5rem;
+        line-height: 3.2rem;
     }
 
     .my-skills {
@@ -531,12 +530,13 @@ nav button {
     .p-info {
         width: 100%;
         font-weight: normal;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     
     .p-info h4 {
         text-align: center;
         padding-bottom: 0.3rem;
+        font-size: 1.7rem;
     }
     
     .contact {
