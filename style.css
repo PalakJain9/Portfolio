@@ -444,10 +444,11 @@ nav button {
         flex-direction: column;
         gap: 1.5rem;
         padding: 2rem;
+        font-size: 1.8rem;
     }
       
     .nav-content a:hover {
-    font-size: 3rem;
+    font-size: 1.8rem;
     }
 
     .hero-intro {
