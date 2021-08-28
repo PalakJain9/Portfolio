@@ -93,13 +93,13 @@ nav button {
 }
 
 .social i {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-left: 1rem;
 }
 
 .social i:hover {
     color: rgb(1, 1, 216);
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 .intro {
@@ -189,10 +189,11 @@ nav button {
 .p-info {
     font-weight: bold;
     width: 60%;
+    font-size: 1.2rem;
 }
 
 .p-info h4 {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
     border-bottom: 0.05rem solid black;
 }
 
@@ -236,13 +237,13 @@ nav button {
 }
 
 .follow-social i {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-left: 1rem;
 }
 
 .follow-social i:hover {
     color: rgb(1, 1, 216);
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 .footer {
