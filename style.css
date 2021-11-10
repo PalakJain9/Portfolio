@@ -392,6 +392,32 @@ and (-webkit-min-device-pixel-ratio: 1) {
         gap: 4rem;
     }
 
+    .p1 {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 1rem;
+    }
+
+    .p-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .p-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+
+    .p-info {
+        width: 100%;
+    }
+    
+    .p-info h4 {
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+
     .contact {
         margin-top: 9rem;
         flex-direction: row;
@@ -503,7 +529,7 @@ and (max-device-width : 813px) {
     }
 
     .p1 {
-        flex-direction: row;
+        flex-direction: column;
         gap: 3rem;
         padding: 1rem;
     }
@@ -596,8 +622,9 @@ and (max-device-width : 480px) {
         background-color: rgb(17, 17, 85);
         text-align: center;
     }
-      
+    
     .nav-content a:hover {
+        color: rgb(231, 229, 229);
         font-size: 1.8rem;
     }
 
