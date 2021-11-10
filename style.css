@@ -51,10 +51,9 @@ nav button {
 .hero-intro {
     margin-top: 13rem;
     font-size: 3.1rem;
-    /*position: relative;*/
     font-weight: 400;
     line-height: 4.8rem;
-    text-align: center;
+    /*text-align: center;*/
     padding: 0rem 5rem;
 }
 
@@ -73,6 +72,8 @@ nav button {
     width: 14.5rem;
     height: 14.5rem;
     animation: rotation 12s infinite linear;
+    -moz-animation: rotation 12s infinite linear;
+    -webkit-animation: rotation 12s infinite linear;
 }
 
 @keyframes rotation {
@@ -141,9 +142,10 @@ nav button {
 }
 
 .skill img {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 1rem;
+    object-fit: fill;
 }
 
 .projects {
@@ -190,6 +192,7 @@ nav button {
     font-weight: bold;
     width: 60%;
     font-size: 1.2rem;
+    line-height: 2.1rem;
 }
 
 .p-info h4 {
@@ -199,6 +202,7 @@ nav button {
 
 .p-info a {
     color: rgb(1, 1, 216);
+    padding-right: 1rem;
 }
 
 .contact {
