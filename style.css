@@ -572,7 +572,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         gap: 1.5rem;
         padding: 2rem;
         font-size: 1.8rem;
-        width: 80vw;
+        width: 70vw;
         /*background-color: rgb(17, 17, 85);*/
         background-color: var(--blue2);
         text-align: center;
@@ -699,7 +699,7 @@ and (max-device-width : 813px) {
         gap: 1.5rem;
         padding: 2rem;
         font-size: 1.8rem;
-        width: 80vw;
+        width: 85vw;
         background-color: var(--blue2);
         text-align: center;
     }
@@ -840,6 +840,7 @@ and (max-device-width : 480px) {
         gap: 1.5rem;
         padding: 2rem;
         font-size: 1.8rem;
+        /*width: 80vw;*/
         width: 80vw;
         background-color: var(--blue2);
         text-align: center;
