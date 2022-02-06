@@ -302,9 +302,9 @@ nav button {
     border-radius: 0.2rem;
     background-color: var(--white);
     opacity: 0;
-    animation: sparkle2 4s infinite linear;
-    -webkit-animation: sparkle2 4s infinite linear;
-    -moz-animation: sparkle2 4s infinite linear;
+    animation: sparkle2 5s infinite linear;
+    -webkit-animation: sparkle2 5s infinite linear;
+    -moz-animation: sparkle2 5s infinite linear;
 }
 
 @keyframes sparkle {
