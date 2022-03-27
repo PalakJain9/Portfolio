@@ -64,7 +64,7 @@ nav button {
 }
 
 .nav-content a:hover {
-    border-bottom: 0.1rem solid var(--golden_orange);
+    color: var(--light_violet);
 }
 
 .hero_intro {
@@ -547,7 +547,7 @@ and (max-device-width : 1024px) {
         display: inline-block;
         font-size: 3rem;
         border: none;
-        background-color: transparent;
+        background-color: var(--blue_bg);
     }
 
     .dropdown {
@@ -680,7 +680,7 @@ and (min-width: 481px) and (max-width: 768px) {
         display: inline-block;
         font-size: 3rem;
         border: none;
-        background-color: transparent;
+        background-color: var(--blue_bg);
     }
 
     .dropdown {
@@ -727,7 +727,7 @@ and (min-width: 481px) and (max-width: 768px) {
     }
 
     .social {
-        right: 10%;
+        right: 12%;
     }
 
     .intro {
@@ -830,7 +830,7 @@ and (max-device-width : 480px) {
         display: inline-block;
         font-size: 3rem;
         border: none;
-        background-color: transparent;
+        background-color: var(--blue_bg);
     }
 
     .dropdown {
@@ -879,7 +879,11 @@ and (max-device-width : 480px) {
     }
 
     .social {
-        right: 11%;
+        right: 12%;
+    }
+
+    .social i {
+        font-size: 1.7rem;
     }
 
     .intro {
