@@ -35,6 +35,13 @@ body {
     color: var(--white);
 }
 
+.landing_page {
+    background: var(--blue_bg);
+    background: radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+    background: -webkit-radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+    background: -moz-radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+}
+
 nav {
     height: 3rem;
     font-size: 1rem;
@@ -64,8 +71,15 @@ nav button {
 }
 
 .nav-content a:hover {
-    color: var(--light_violet);
+    color: var(--golden_orange);
 }
+
+/*.hero {
+    background: var(--blue_bg);
+    background: radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+    background: -webkit-radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+    background: -moz-radial-gradient(circle at 40%, rgba(33,44,70,1) 0%, rgba(22,30,48,1) 31%);
+}*/
 
 .hero_intro {
     margin-top: 13rem;
@@ -112,12 +126,11 @@ nav button {
 }
 
 .social i {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .social i:hover {
     color: var(--golden_orange);
-    font-size: 1.45rem;
 }
 
 .intro {
@@ -534,7 +547,7 @@ and (max-device-width : 1024px) {
     }
 
     nav {
-        width: 70%;
+        width: 71%;
         align-items:center;
       }
 
@@ -595,7 +608,7 @@ and (max-device-width : 1024px) {
     }
 
     .social {
-        right: 20%;
+        left: 71%;
     }
 
     .intro {
@@ -671,7 +684,7 @@ and (min-width: 481px) and (max-width: 768px) {
     }
 
     nav {
-        width: 93%;
+        width: 91%;
         padding-top: 1rem;
         align-items:center;
     }
@@ -727,7 +740,7 @@ and (min-width: 481px) and (max-width: 768px) {
     }
 
     .social {
-        right: 12%;
+        left: 81%;
     }
 
     .intro {
@@ -820,7 +833,7 @@ and (max-device-width : 480px) {
     }
 
     nav {
-        width: 93%;
+        width: 90%;
         padding-top: 1rem;
         font-size: 1.3rem;
         align-items:center;
@@ -879,11 +892,11 @@ and (max-device-width : 480px) {
     }
 
     .social {
-        right: 12%;
+        left: 71%;
     }
 
     .social i {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     .intro {
